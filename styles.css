@@ -1,0 +1,256 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('GREEN.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.WholeSection, .first-section, .third-section {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+
+.first-section, .third-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Placeholder {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Introduction-Title {
+  font-size: 50px;
+  color: yellow;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.Introduction-Para {
+  font-size: 32px;
+  color:white;
+  margin-bottom: 30px;
+  font-weight: bold;
+  
+}
+
+.HYPERLINKSP-button {
+  font-size: 16px; /* Decrease font size */
+  padding: 4px 8px; /* Decrease padding */
+  margin: 20px 10px; /* Add margin to create space */
+  cursor: pointer;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline */
+  top: 0px;
+  left: 0px;
+  position: fixed;
+}
+
+.HYPERLINKSW-button {
+  font-size: 16px; /* Decrease font size */
+  padding: 4px 8px; /* Decrease padding */
+  margin: 20px 10px; /* Add margin to create space */
+  cursor: pointer;
+  border: none;
+  background-color: #555;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline */
+  top: 0px;
+  left: 0px; /* Adjust left position to create space */
+  position: fixed;
+  margin-left: 205px;
+}
+
+.HYPERLINKSP-button:hover, .HYPERLINKSW-button:hover {
+  background-color: #777;
+}
+
+a {
+  text-decoration: none; 
+}
+
+
+/* Adjustments for social links at the top right */
+
+.social-links {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  display: flex;
+  margin-right: 15px;
+  gap: 10px;
+}
+
+.social-links img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px; /* Adjust spacing between icons */
+  border-radius: 50%;
+  opacity: 1; /* Set initial opacity */
+  transition: opacity 0.9s; /* Smooth transition for hover effect */
+}
+
+.social-links img:hover {
+  opacity: 0.5; /* Change opacity on hover */
+}
+
+
+
+
+.Programming {
+  font-size: 50px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-bottom: 65px;
+}
+
+.Languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px; /* Increased gap for more spacing */
+}
+
+.Languages img {
+  width: 70px;
+  height: 70px;
+  gap: 100px;
+  border-radius: 10%;
+}
+
+.Picture_Of_Me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 95px;
+}
+
+.Picture_Of_Me img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  
+}
+
+.Who_Am_l {
+  font-size: 35px;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.Content_About_Me {
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+  max-width: 800px;
+  text-align: left;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-weight:bold;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+/* Projects Section */
+.TWEET_CONTAINER, .HEALTH_CONTAINER {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.TWEET, .HEALTH {
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+}
+
+.TWITTER_PIC, .HEALTH_PIC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TWITTER_PIC img, .HEALTH_PIC img {
+  width: 225px;
+  height: 175px;
+  margin-bottom: 10px;
+}
+
+.twittermessage, .healthmessage {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+  max-width: 600px;
+}
+
+/* Work Experience Section */
+.Minds_CONTAINER, .Stampede_CONTAINER, .Camp_CONTAINER {
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #514b4b;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.Minds, .Stampede, .Camps {
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+.Minds_PIC, .Stampede_Pic, .Camp_PIC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Minds_PIC img, .Stampede_Pic img, .Camp_PIC img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+.ProjectTitle{
+  font-size: 75px;
+  color: white;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.minds_in_motion, .Stampede_Message, .Camp_Message {
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  max-width: 600px;
+}
